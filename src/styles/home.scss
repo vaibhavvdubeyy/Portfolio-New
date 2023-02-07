@@ -1,0 +1,68 @@
+.heading{
+    width: 50%;
+    height:200px;
+    line-height: 30px;
+    padding-top: 50px;
+
+    >h1{
+        color:white;
+        font-size: 100px;
+        padding-left: 200px;
+        padding-top: 100px;
+        animation: floating 2s linear infinite;
+        
+    }
+    @keyframes floating {
+        0% {
+            transform: translate(0%, 5%);
+        }
+        50% {
+            transform: translate(0%, -5%);
+        }
+        100% {
+            transform: translate(0%, 5%);
+        }
+    }
+    
+    >h2{
+        color:white;
+        font-size: 60px;
+        padding-left: 200px;
+        padding-bottom: 50px;
+        
+    }
+    
+}
+.btn{
+    padding-left: 250px;
+    padding-top: 150px;
+    font-size: 30px;
+    border-radius: 20px;
+
+
+    >button{
+        border-radius: 20px;
+        font-size: 30px;
+        background: transparent;
+        color: aliceblue;
+        font-weight: bolder;
+        border: 1px solid white;
+        cursor: pointer;
+        text-align: center;
+        transition: all 0.2s ease-in-out;
+        
+    }
+    
+    button:hover{
+        background-color: white;
+        color: black;
+        box-shadow: 0 3px 40px yellow;
+}
+
+
+}
+.social{
+    padding-top: 300px;
+    padding-left: 100px;
+    text-align: center;
+}
