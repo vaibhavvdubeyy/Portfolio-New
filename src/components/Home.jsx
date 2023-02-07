@@ -12,11 +12,11 @@ const Home = () => {
     <h2>Web Developer</h2>
     </div>
     <div className='photo'>
-    <img src={profile} id='photo' alt="profile" />
+    <img src={profile} id='image' alt="profile" />
     </div>
     
     <div className='btn'>
-        <button>RESUME</button>
+        <button>Hire Me!</button>
     </div>
     
     <div className='social '>
