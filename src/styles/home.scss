@@ -52,9 +52,15 @@
         cursor: pointer;
         text-align: center;
         transition: all 0.2s ease-in-out;
+
+        >a{
+            text-decoration: none;
+            
+        }
+        
         
     }
-    
+   
     button:hover{
         background-color: white;
         color: black;
@@ -85,7 +91,7 @@
       border-radius: 50%;
     }
     .typewriter {
-        width: 82%;
+        width: 91%;
         padding-top: 100px;
         padding-left: 200px;
 

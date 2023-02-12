@@ -6,8 +6,8 @@ import '../styles/contact.scss'
 const Contact = () => {
     return (
         <>
-       
-            <h1>Connect with Me</h1>
+        <div className="contact">
+            <h1>Contact US!</h1>
             
             <form class="cf">
                 <div class="half left cf">
@@ -20,7 +20,7 @@ const Contact = () => {
                 </div>
                 <input type="submit" value="Submit" id="input-submit" />
             </form>
-
+            </div>
         </>
     )
 }

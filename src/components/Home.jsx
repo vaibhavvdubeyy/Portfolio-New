@@ -9,14 +9,14 @@ const Home = () => {
       <div className='heading'>
 
         <h1>I'm Vaibhav </h1>
-        <h2>Web Developer</h2>
+        <h2>~ Full Stack Developer</h2>
       </div>
       <div className='photo'>
         <img src={profile} id='image' alt="profile" />
       </div>
 
       <div className='btn'>
-        <button>Hire Me!</button>
+        <button><a href='https://docs.google.com/document/d/1C1zDWVlaVZruWZRgj0pcy9rnqOvAchICHK1jn6ExQIk/edit?usp=sharing'> Hire Me!</a></button>
       </div>
 
       <div className='social '>
