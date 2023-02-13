@@ -1,14 +1,11 @@
  
-import React, { useState } from 'react'
+import React from 'react'
 import '../styles/navbar.scss'
-import {FaBrain, FaBriefcase, FaFileContract, FaHome, FaServicestack, IconName } from "react-icons/fa";
+import {FaBrain, FaBriefcase, FaFileContract, FaHome, FaServicestack } from "react-icons/fa";
 
 const Navbar = () => {
     
-    const {hover,setHover} = useState(false);
-    const {hoverText,setHoverText} = useState("");
-    
-    const showIcons = hover ? hoverText : "";
+   
 
   return (
     <>
