@@ -27,7 +27,7 @@ const Project = () => {
         <h2>02</h2>
         <h3>Portfolio Website</h3>
         <p>Personal Portfolio website based on React.js and Node.js to showcase yourself.</p>
-        <a href="/">Check Out</a>
+        <a href="https://master--vaibhavvdubeyy.netlify.app/Home">Check Out</a>
       </div>
     </div>
   </div>
